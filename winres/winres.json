@@ -1,0 +1,63 @@
+{
+  "RT_GROUP_ICON": {
+    "APP": {
+      "0000": [
+        "favicon.png",
+        "favicon48.png",
+        "favicon64.png",
+        "favicon128.png"
+      ]
+    }
+  },
+  "RT_MANIFEST": {
+    "#1": {
+      "0409": {
+        "identity": {
+          "name": "",
+          "version": ""
+        },
+        "description": "灵光一闪",
+        "minimum-os": "win7",
+        "execution-level": "as invoker",
+        "ui-access": false,
+        "auto-elevate": false,
+        "dpi-awareness": "system",
+        "disable-theming": false,
+        "disable-window-filtering": false,
+        "high-resolution-scrolling-aware": false,
+        "ultra-high-resolution-scrolling-aware": false,
+        "long-path-aware": false,
+        "printer-driver-isolation": false,
+        "gdi-scaling": false,
+        "segment-heap": false,
+        "use-common-controls-v6": false
+      }
+    }
+  },
+  "RT_VERSION": {
+    "#1": {
+      "0000": {
+        "fixed": {
+          "file_version": "0.0.0.1",
+          "product_version": "0.0.0.1"
+        },
+        "info": {
+          "0409": {
+            "Comments": "",
+            "CompanyName": "长沙灵光一闪网络科技有限公司",
+            "FileDescription": "灵光一闪",
+            "FileVersion": "0.0.0.1",
+            "InternalName": "灵光一闪管理",
+            "LegalCopyright": "LGYS",
+            "LegalTrademarks": "",
+            "OriginalFilename": "GOAPIML.exe",
+            "PrivateBuild": "",
+            "ProductName": "灵光一闪管理",
+            "ProductVersion": "0.0.0.1",
+            "SpecialBuild": ""
+          }
+        }
+      }
+    }
+  }
+}
