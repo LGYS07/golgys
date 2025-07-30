@@ -13,7 +13,7 @@ import (
 
 var (
 	// 版本号
-	Version = "v1.0.0"
+	Version = "v1.0.2"
 )
 
 func main() {

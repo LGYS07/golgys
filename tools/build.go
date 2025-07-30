@@ -22,7 +22,7 @@ func BuildAndRun() {
 	}
 
 	// 编译
-	buildCmd := exec.Command("go", "build", "-ldflags", "-w -s", "-o", "main"+exeSuffix, "main.go")
+	buildCmd := exec.Command("go", "build", "-ldflags", "-w", "-s", "-o", "lgys"+exeSuffix, "main.go")
 	buildCmd.Stdout = os.Stdout
 	buildCmd.Stderr = os.Stderr
 
@@ -34,7 +34,7 @@ func BuildAndRun() {
 
 	log.Println("› 编译成功，正在运行...")
 	// 运行编译后的程序
-	cmd := exec.Command("./main" + exeSuffix)
+	cmd := exec.Command("./lgys" + exeSuffix)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
 
